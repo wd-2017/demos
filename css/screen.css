@@ -55,9 +55,12 @@ li li:last-child {
 #navigation {
   position: absolute;
   top: 0;
+  left: 0;
+  width: 100%;
 }
 #navigation li {
-  display: inline-block;
+  width: 33.333333%;
+  float: left;
 }
 
 /* Modular */
@@ -65,5 +68,7 @@ nav ul {
   list-style-type: none;
 }
 nav a {
+  display: block;
+  background-color: orange;
   text-decoration: none;
 }
