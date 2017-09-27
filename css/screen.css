@@ -20,7 +20,7 @@ html {
   text-size-adjust: 100%;
 }
 body {
-  padding-top: 44px;
+  padding-top: 66px;
   padding-right: 22px;
   padding-left: 22px;
 }
@@ -69,6 +69,10 @@ nav ul {
 }
 nav a {
   display: block;
+  padding-top: 11px;
+  padding-bottom: 11px;
   background-color: orange;
+  text-align: center;
   text-decoration: none;
+
 }
