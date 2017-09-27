@@ -10,9 +10,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Base */
 html {
-  font-size: 1.125em;
-  line-height: 22px;
-  line-height: 1.222em;
+  font-size: 1.125em; /* 18 / 16 = 1.125 */
+  line-height: 1.222em; /* 22 / 18 = 1.222 */
   text-rendering: optimizeLegibility;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -20,19 +19,19 @@ html {
   text-size-adjust: 100%;
 }
 body {
-  padding-top: 66px;
-  padding-right: 22px;
-  padding-left: 22px;
+  padding-top: 3.666em; /* 66 / 18 = 3.666 */
+  padding-right: 1.222em; /* 22 / 18 = 1.222 */
+  padding-left: 1.222em; /* 22 / 18 = 1.222 */
 }
 
 h1,h2,h3,p {
   padding-bottom: 1.222em;
 }
 li {
-  padding-bottom: 11px;
+  padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
 }
 ul,ol {
-  padding-bottom: 11px;
+  padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
   color: red;
 }
 ul {
@@ -43,8 +42,8 @@ ol {
 }
 li > ul,
 li > ol {
-  padding-top: 11px;
-  padding-left: 22px;
+  padding-top:  0.611em; /* 11 / 18 = 0.611 */
+  padding-left: 1.222em; /* 22 / 18 = 1.222 */
   padding-bottom: 0;
 }
 li li:last-child {
@@ -69,10 +68,9 @@ nav ul {
 }
 nav a {
   display: block;
-  padding-top: 11px;
-  padding-bottom: 11px;
+  padding-top: 0.611em; /* 11 / 18 = 0.611 */
+  padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
   background-color: orange;
   text-align: center;
   text-decoration: none;
-
 }
