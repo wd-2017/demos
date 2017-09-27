@@ -8,6 +8,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
+/* Base */
 html {
   font-size: 1.125em;
   line-height: 22px;
@@ -48,4 +49,21 @@ li > ol {
 }
 li li:last-child {
   padding-bottom: 0;
+}
+
+/* Layout */
+#navigation {
+  position: absolute;
+  top: 0;
+}
+#navigation li {
+  display: inline-block;
+}
+
+/* Modular */
+nav ul {
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
 }
