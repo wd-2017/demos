@@ -7,3 +7,25 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+
+html {
+  font-size: 1.125em;
+  line-height: 22px;
+  line-height: 1.222em;
+  text-rendering: optimizeLegibility;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+h1,h2,h3,p {
+  padding-bottom: 1.222em;
+}
+li {
+  padding-bottom: 11px;
+}
+ul,ol {
+  padding-bottom: 11px;
+  color: red;
+}
