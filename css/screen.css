@@ -9,6 +9,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 /* Base */
+/*
+  Using an 18/22 base typographic setting, according to a 4:3 modular scale
+  http://www.modularscale.com/?18&px&1.333
+*/
+
 html {
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.222em; /* 22 / 18 = 1.222 */
@@ -26,6 +31,19 @@ body {
 
 h1,h2,h3,p {
   padding-bottom: 1.222em;
+}
+h1 {
+  color: #666;
+}
+h2 {
+  font-size: 1.777em; /* 31.984 / 18 = 1.777 */
+  line-height: 1.0318em; /* 33 / 31.984 = 1.0318 */
+  padding-bottom: 0.689em; /* 22 / 31.984 = 0.689 */
+}
+h3 {
+  font-weight: bold;
+  padding-top: 1.222em; /* 22 / 18 = 1.222 */
+  padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
 }
 li {
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
