@@ -85,6 +85,16 @@ b,strong {
   float: left;
 }
 
+.flexbox #navigation {
+  position: static;
+}
+.flexbox #navigation ul {
+  display: flex;
+}
+.flexbox #navigation li {
+  float: none;
+}
+
 /* Modular */
 nav ul {
   list-style-type: none;
