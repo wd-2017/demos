@@ -146,6 +146,30 @@ nav a {
     margin-left: 2.0348837%; /* 17.5 / 860 = 0.020348837 */
     float: left;
   }
+
+  .flexbox #content {
+    display: flex;
+  }
+  .flexbox #primary,
+  .flexbox #supporting {
+    float: none;
+    margin: 0;
+    width: auto;
+  }
+
+  .cssgrid #content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2.0348837%; /* 17.5 / 860 = 0.020348837 */
+    grid-column-gap: 35px;
+  }
+  .cssgrid #primary {
+    grid-column: 1 / 3;
+  }
+  .cssgrid #supporting {
+    grid-column: 3 / 4;
+  }
+
   #footer {
     clear: both;
     float: none;
