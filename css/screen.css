@@ -67,7 +67,12 @@ li > ol {
 li li:last-child {
   padding-bottom: 0;
 }
-
+i,em,cite {
+  font-style: italic;
+}
+b,strong {
+  font-weight: bold;
+}
 /* Layout */
 #navigation {
   position: absolute;
