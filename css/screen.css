@@ -85,9 +85,6 @@ b,strong {
   float: left;
 }
 
-.flexbox #navigation {
-  position: static;
-}
 .flexbox #navigation ul {
   display: flex;
 }
