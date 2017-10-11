@@ -85,6 +85,14 @@ b,strong {
   float: left;
 }
 
+.flexbox body {
+  padding-top: 0;
+}
+.flexbox #header {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .flexbox #navigation {
   position: static;
 }
